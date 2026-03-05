@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jisly & Hasbie Wedding Invitation</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cinzel:wght@400;700&family=Amiri:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --gold: linear-gradient(
+          to right,
+          #bf953f,
+          #fcf6ba,
+          #b38728,
+          #fbf5b7,
+          #aa771c
+        );
+        --gold-solid: #b38728;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background-color: #0c0c0c; /* Luxury dark base */
+        color: #fff;
+      }
+      .font-cursive {
+        font-family: "Great Vibes", cursive;
+      }
+      .font-serif-elegant {
+        font-family: "Cinzel", serif;
+      }
+      .font-arabic {
+        font-family: "Amiri", serif;
+      }
+      .font-sans-clean {
+        font-family: "Montserrat", sans-serif;
+      }
+      .font-playfair {
+        font-family: "Playfair Display", serif;
+      }
+
+      /* Gold Text Effect */
+      .gold-text {
+        background: var(--gold);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: 200% auto;
+        animation: shimmer 4s linear infinite;
+      }
+
+      @keyframes shimmer {
+        to {
+          background-position: 200% center;
+        }
+      }
+
+      /* Door Animation Classes */
+      .door-lift {
+        transition: transform 1.5s cubic-bezier(0.7, 0, 0.3, 1);
+      }
+      .door-open {
+        transform: translateY(-100%);
+      }
+
+      /* Rolling Digit Premium Animation */
+      .digit-container {
+        height: 2.5rem;
+        overflow: hidden;
+        display: inline-block;
+        position: relative;
+        background: rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+        margin: 0 1px;
+      }
+      .digit-strip {
+        transition: transform 0.8s cubic-bezier(0.65, 0, 0.35, 1);
+        display: flex;
+        flex-direction: column;
+      }
+      .digit-value {
+        height: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 1.5rem;
+      }
+
+      /* Responsive Text Scaling */
+      @media (max-width: 640px) {
+        .text-responsive-title {
+          font-size: 2.5rem;
+          line-height: 1.1;
+        }
+        .text-responsive-names {
+          font-size: 3.5rem;
+          line-height: 1;
+        }
+      }
+
+      .luxury-border {
+        border: 2px solid;
+        border-image: var(--gold) 1;
+      }
+
+      .islamic-pattern {
+        background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M40 0l7.837 24.12h25.363l-20.52 14.907 7.837 24.12L40 48.24l-20.517 14.907 7.837-24.12L6.8 24.12h25.363L40 0z' fill='%23d4af37' fill-opacity='0.08' fill-rule='evenodd'/%3E%3C/svg%3E");
+      }
+    </style>
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "https://esm.sh/react@^19.2.4",
+          "react/": "https://esm.sh/react@^19.2.4/",
+          "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body class="islamic-pattern">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

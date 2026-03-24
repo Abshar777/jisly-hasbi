@@ -35,7 +35,7 @@ const InvitationCard: React.FC = () => {
           {/* Inviter Info */}
           <div className="mb-10 space-y-2 text-gray-700 font-sans-clean text-xs md:text-sm tracking-wide px-2">
             <p className="font-bold text-gray-900 text-lg md:text-2xl font-serif-elegant uppercase tracking-wider leading-snug">
-              Mrs. Sulaikha Ismail Padinjarakam
+              Mrs. Sulaikha Ismail 
             </p>
             <p className="italic text-gray-500">W/o Ismail APM (Late)</p>
             <p className="uppercase tracking-[0.1em] text-[10px] md:text-xs opacity-60">Multhazham, K.K Junction, Ponnani.</p>
@@ -54,7 +54,7 @@ const InvitationCard: React.FC = () => {
               Jisly Shareefa
             </h1>
             <p className="text-gray-400 font-serif-elegant text-[9px] md:text-xs uppercase tracking-[0.4em] mb-6">
-              Daughter of Late Ismail Padinjarakam
+              Daughter of Late APM Ismail 
             </p>
             
             <div className="flex items-center justify-center gap-4 mb-6">
@@ -67,7 +67,7 @@ const InvitationCard: React.FC = () => {
             Mohammed Hasbie 
             </h1>
             <p className="text-gray-400 font-serif-elegant text-[9px] md:text-xs uppercase tracking-[0.4em]">
-              Son of A V Ashraf & Zeenath Ashraf
+              Son of A V Ashraf & Zeenath Ashraf 
             </p>
           </div>
 

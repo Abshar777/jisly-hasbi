@@ -54,7 +54,7 @@ const InvitationCard: React.FC = () => {
               Jisly Shareefa
             </h1>
             <p className="text-gray-400 font-serif-elegant text-[9px] md:text-xs uppercase tracking-[0.4em] mb-6">
-              Daughter of Late APM Ismail 
+              Daughter of APM Ismail (Late)
             </p>
             
             <div className="flex items-center justify-center gap-4 mb-6">

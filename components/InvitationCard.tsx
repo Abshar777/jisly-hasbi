@@ -66,8 +66,10 @@ const InvitationCard: React.FC = () => {
             <h1 className="font-cursive text-5xl md:text-8xl text-[#222] mb-1 leading-tight whitespace-nowrap  text-ellipsis md:whitespace-normal">
             Mohammed Hasbie 
             </h1>
-            <p className="text-gray-400 font-serif-elegant text-[9px] md:text-xs uppercase tracking-[0.4em]">
+            <p className="text-gray-400 font-serif-elegant text-center text-[9px] md:text-xs uppercase tracking-[0.4em]">
               Son of A V Ashraf & Zeenath Ashraf 
+              <br />
+              Ambalath Veetil House
             </p>
           </div>
 

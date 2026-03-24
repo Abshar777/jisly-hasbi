@@ -69,7 +69,7 @@ const InvitationCard: React.FC = () => {
             <p className="text-gray-400 font-serif-elegant text-center text-[9px] md:text-xs uppercase tracking-[0.4em]">
               Son of A V Ashraf & Zeenath Ashraf 
               <br />
-              Ambalath Veetil House
+              Ambalath Veetil House, Hayat Mahal, Eswaramangalam, Ponnani
             </p>
           </div>
 
